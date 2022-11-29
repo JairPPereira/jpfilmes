@@ -1,0 +1,60 @@
+img.lazy   { width: 100%; height: auto } 
+
+
+@media (min-width: 768px)
+.header__logo {
+height: 80px;
+width: 290px;
+}
+
+@media (min-width: 360px)
+.header__logo {
+width: 290px;
+}
+
+.header__logo {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 70px;
+width: 290px;
+}  
+
+.idiomas span {
+    width: 18px;
+    height: 16px;
+    background-size: 18px auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 0px;
+    margin-right: -2px;
+    margin-left: 2px;
+    margin-bottom: -3px;
+    }
+    .idiomas span:last-child {
+    margin-right: 0px;
+    }
+    .idiomas {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 2px;
+    }
+              
+    @media only screen and (max-width: 479px)
+    .leowp p {
+    font-size: 12px;
+    }
+              
+    @media only screen and (max-width: 479px)
+    .leowp h2 {
+    font-size: 18px;
+    }    
+    .footer__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 290px;
+    } 
